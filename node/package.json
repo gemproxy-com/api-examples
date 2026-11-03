@@ -1,0 +1,16 @@
+{
+  "name": "gemproxy-api-examples",
+  "private": true,
+  "type": "module",
+  "description": "Node.js examples for the GemProxy API",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "packages": "node list-packages.mjs",
+    "rotate": "node rotate.mjs",
+    "use-proxy": "node use-proxy.mjs"
+  },
+  "dependencies": {
+    "undici": "^6.21.0"
+  }
+}
